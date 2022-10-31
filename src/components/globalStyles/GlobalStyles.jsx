@@ -6,10 +6,10 @@ export const GlobalStyles = createGlobalStyle`
         margin:0;
         padding:0;
         box-sizing: border-box;
-        font-family: "Girassol", cursive;
+        font-family: "Girassol",cursive;
     }
-    body {
+    body{
         font-size: 1.5rem;
-
     }
+
 `;
