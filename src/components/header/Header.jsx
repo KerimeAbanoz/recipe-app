@@ -16,10 +16,10 @@ const Header = ({ setQuery, setSelectedMeal, mealType, getData }) => {
   };
 
   return (
-    <HeaderContainer onSubmit={handleSubmit}>
+    <HeaderContainer>
       <MainHeader>Recipe App</MainHeader>
 
-      <FormContainer>
+      <FormContainer onSubmit={handleSubmit}>
         <FoodInput
           type="text"
           placeholder="Search"
