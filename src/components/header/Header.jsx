@@ -9,16 +9,15 @@ import {
   Select,
 } from "./Header.style";
 
-const Header = ({ setQuery, setSelectedMeal, mealType,getData }) => {
- 
+const Header = ({ setQuery, setSelectedMeal, mealType, getData }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    getData()
-  }
+    getData();
+  };
 
   return (
     <HeaderContainer>
-      <MainHeader>Recipe App</MainHeader>
+      <MainHeader>Recipe Finder</MainHeader>
 
       <FormContainer onSubmit={handleSubmit}>
         <FoodInput
